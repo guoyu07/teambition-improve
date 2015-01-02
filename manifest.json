@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Teambition Improve",
+  "version": "1.0",
+  "author": "Charlie Jade <summer.alex07@gmail.com> (http://summerblue.me)",
+  "description": "Teambition UI Improve",
+  "icons": {
+    "16": "img/icon-16.png",
+    "48": "img/icon-48.png",
+    "128": "img/icon-128.png"
+  },
+  "permissions": [],
+  "content_scripts": [{
+    "matches": [
+      "https://www.teambition.com/*"
+    ],
+    "js": [
+      "js/jquery.js",
+      "js/script.js"
+    ],
+    "css": [
+      "css/style.css"
+    ]
+  }]
+}
