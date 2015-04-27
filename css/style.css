@@ -1,6 +1,9 @@
 #teambition-improve .task {
   overflow: hidden;
 }
+#teambition-improve .modal-content {
+  width: 900px;
+}
 #teambition-improve .task .task-content-set {
   margin-left: 0px;
 }
