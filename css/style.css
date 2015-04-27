@@ -1,3 +1,6 @@
+#teambition-improve .task {
+  overflow: hidden;
+}
 #teambition-improve .task .task-content-set {
   margin-left: 0px;
 }
